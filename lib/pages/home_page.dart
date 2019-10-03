@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  Gender _selectedGender;
+  Gender _selectedGender = Gender.Male;
 
   int age = 21;
   int weight = 60;
